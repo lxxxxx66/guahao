@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class DBUtil {
     private static final String URL = "jdbc:mysql://localhost:3306/medical_appointment?useSSL=false&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "000000" ;
+    private static final String PASSWORD = "123456" ;
 
     public static Connection getConnection() {
         try {
